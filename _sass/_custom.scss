@@ -157,99 +157,6 @@ hr {
 
 
 /* ============================================================
-   Header and primary navigation
-   ============================================================ */
-
-.masthead {
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  border-bottom: 1px solid rgba(220, 230, 236, 0.92);
-  background: rgba(255, 255, 255, 0.94);
-  box-shadow: 0 1px 0 rgba(24, 48, 66, 0.02);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-}
-
-.masthead__inner-wrap {
-  max-width: var(--ha-content-width);
-  padding-top: 0.85rem;
-  padding-bottom: 0.85rem;
-}
-
-.greedy-nav {
-  background: transparent;
-}
-
-.greedy-nav .site-title {
-  color: var(--ha-ink);
-  font-family:
-    Georgia,
-    "Times New Roman",
-    serif;
-  font-size: 1.12rem;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-
-.greedy-nav .visible-links {
-  gap: 0.15rem;
-}
-
-.greedy-nav .visible-links a {
-  position: relative;
-  margin: 0;
-  padding: 0.55rem 0.72rem;
-  color: var(--ha-muted);
-  font-size: 0.88rem;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: var(--ha-radius-sm);
-}
-
-.greedy-nav .visible-links a::before {
-  display: none;
-}
-
-.greedy-nav .visible-links a:hover {
-  color: var(--ha-accent-dark);
-  background: var(--ha-surface-soft);
-}
-
-/* Make CV read as an action, not just another navigation label. */
-.greedy-nav .visible-links a[href$="/cv/"] {
-  margin-left: 0.35rem;
-  padding-inline: 0.95rem;
-  color: #fff;
-  background: var(--ha-accent);
-  border: 1px solid var(--ha-accent);
-}
-
-.greedy-nav .visible-links a[href$="/cv/"]:hover {
-  color: #fff;
-  background: var(--ha-accent-dark);
-  border-color: var(--ha-accent-dark);
-  transform: translateY(-1px);
-}
-
-.greedy-nav__toggle {
-  color: var(--ha-ink);
-}
-
-.greedy-nav .hidden-links {
-  border: 1px solid var(--ha-border);
-  border-radius: var(--ha-radius-md);
-  background: var(--ha-surface);
-  box-shadow: var(--ha-shadow-md);
-}
-
-.greedy-nav .hidden-links a {
-  color: var(--ha-text);
-  text-decoration: none;
-}
-
-
-/* ============================================================
    Sidebar / author profile
    ============================================================ */
 
@@ -877,9 +784,6 @@ hr {
    ============================================================ */
 
 @media (max-width: 1024px) {
-  .masthead__inner-wrap {
-    padding-inline: 1rem;
-  }
 
   .author-profile-card {
     padding: 0.8rem;
@@ -904,15 +808,6 @@ hr {
 
   body {
     line-height: 1.72;
-  }
-
-  .masthead__inner-wrap {
-    padding-top: 0.65rem;
-    padding-bottom: 0.65rem;
-  }
-
-  .greedy-nav .site-title {
-    font-size: 1rem;
   }
 
   .page__title,
@@ -1003,65 +898,5 @@ hr {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
-  }
-}
-/* ============================================================
-   Compact masthead / remove excessive header whitespace
-   ============================================================ */
-
-.masthead {
-  margin: 0 !important;
-  padding: 0 !important;
-  min-height: 0 !important;
-  height: auto !important;
-}
-
-.masthead__inner-wrap {
-  margin: 0 auto !important;
-  padding: 0.55rem 1rem !important;
-  min-height: 0 !important;
-  height: auto !important;
-}
-
-.masthead__menu {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.greedy-nav {
-  margin: 0 !important;
-  padding: 0 !important;
-  min-height: 48px !important;
-  height: auto !important;
-  align-items: center;
-}
-
-.greedy-nav .visible-links {
-  margin: 0 !important;
-  padding: 0 !important;
-  align-items: center;
-}
-
-.masthead__menu-item {
-  margin: 0 !important;
-}
-
-.masthead__menu-item a {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-@media (min-width: 1024px) {
-  .masthead__inner-wrap {
-    max-width: 1400px;
-  }
-
-  .greedy-nav .visible-links a {
-    padding-left: 0.6rem;
-    padding-right: 0.6rem;
-    font-size: 0.86rem;
-  }
-
-  .masthead__menu-item--lg {
-    padding-right: 1rem !important;
   }
 }
