@@ -17,6 +17,45 @@ My research focuses on reconstructing high-quality images from incomplete or lim
 [Publications]({{ '/publications/' | relative_url }}){: .btn .btn--inverse }
 [CV]({{ '/cv/' | relative_url }}){: .btn .btn--inverse }
 
+
+## Recent Highlights
+
+- 🧑‍🔬 **Aug. 2026 — New position:** joined the **University of Tsukuba** as a Researcher in Systems and Information Engineering, continuing work on computational imaging and advanced CT reconstruction.
+
+- 🏆 **Jul. 2026 — JAMIT Encouragement Award:** received the **Encouragement Award** at the 45th Annual Meeting of the Japanese Society of Medical Imaging Technology (JAMIT 2026), Nagoya, Japan.
+
+- 📰 **Jul. 2026 — Journal publication:** *PIDA-GAN: Physics-Informed Dual-Stage Attention GAN with Data Consistency for Sparse-View CT Reconstruction* was published in **Physics in Medicine & Biology**, 71(15), 155003. [Read the paper](https://doi.org/10.1088/1361-6560/ae8c10).
+
+- 🎤 **Jul. 2026 — JAMIT 2026:** presented two works at the Annual Meeting of JAMIT in Nagoya:
+  - *Recipe for Deep Learning Image Reconstruction for Ultra-Sparse-View CT*.
+  - *Deblurring the Angle: Proposal of Realistic Model for Sparse-View CT and Sinogram Space Deep Learning Approach*.
+
+- 🏆 **Apr. 2026 — Best Poster Award: Runner Up, IEEE ISBI 2026:** recognized for *Multi-Frequency and Locality-Guided Attention U-Net GAN for Limited-Angle CT Reconstruction* in London, United Kingdom.
+
+- 🎤 **Apr. 2026 — Invited talk:** presented at the **8th International Conference on Control and Computer Vision (ICCCV 2026)** in Tsukuba, Japan.
+
+- 📄 **2026 — IEEE ISBI:** presented two peer-reviewed works:
+  - *PCDS-GAN: Physics-Constrained Dual-Stage Generative Model with Adaptive Gating for Ultra Sparse-View CT Reconstruction* — **Oral Presentation**.
+  - *Multi-Frequency and Locality-Guided Attention U-Net GAN for Limited-Angle CT Reconstruction* — **Poster Presentation**.
+
+- 📄 **2026 — AAAI-26 W3PHIAI Workshop:** *FLoAT-GAN: Frequency- and Locality-Guided Attention for Limited-Angle CT Reconstruction* was accepted as a **long paper / long presentation**.
+
+- 📄 **2026 — IWAIT:** *Attention-Guided Frequency and Locality Learning GAN for Limited-Angle CT Reconstruction* was presented and published in the SPIE proceedings.
+
+- 🏆 **2025 — Best Presentation Award, ICCAE 2025:** received in Perth, Australia, for *An Attention-Based Generative Adversarial Network for Limited-Angle CT Reconstruction*.
+
+- 🎤 **2025 — Invited talk:** presented *Towards Accurate Reconstruction from Sparse and Limited-Angle CT Data Using Deep Learning* at the **7th Asia Symposium on Image Processing (ASIP 2025)** in Tsukuba, Japan.
+
+- 🎤 **2025 — JAMIT 2025:** presented two works at the Annual Meeting of the Japanese Society of Medical Imaging Technology:
+  - *Novel Dual-Stage GAN for High-Fidelity CT Image Reconstruction from Sparse-View CT*.
+  - *Self-Attention GAN for High-Quality Limited-Angle CT Reconstruction*.
+
+- 📰 **2025 — Journal publication:** *Compressed Sensing-Based Image Reconstruction for Discrete Tomography with Sparse View and Limited Angle Geometries* was published in **PLOS ONE**.
+
+- 🎓 **Jul. 2024 — JSPS Postdoctoral Research Fellowship:** joined the University of Tsukuba as a **JSPS Postdoctoral Research Fellow** to conduct research on ultra-sparse-view electron tomography.
+
+- 💰 **2024 — KAKENHI research funding:** awarded support through the **Grant-in-Aid for JSPS Fellows, Project No. 24KF0101**, for research on ultra-sparse-view electron tomography.
+  
 ## Recent Highlights
 ## Recent Highlights
 
