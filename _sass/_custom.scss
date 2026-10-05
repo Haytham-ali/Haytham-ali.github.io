@@ -1050,3 +1050,18 @@ hr {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
+@media (min-width: 1024px) {
+  .masthead__inner-wrap {
+    max-width: 1400px;
+  }
+
+  .greedy-nav .visible-links a {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    font-size: 0.86rem;
+  }
+
+  .masthead__menu-item--lg {
+    padding-right: 1rem !important;
+  }
+}
