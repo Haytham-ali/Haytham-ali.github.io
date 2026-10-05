@@ -8,16 +8,19 @@
  *  - mademistakes.com
  *  - https://twitter.com/mmistakes
  *
-*/
+ */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+/* Core dependencies */
+@import "vendor/breakpoint/breakpoint";
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
 
+/* Base styles */
 @import "reset";
 @import "base";
 
+/* Components */
 @import "utilities";
 @import "animations";
 @import "tables";
@@ -27,15 +30,25 @@
 @import "navigation";
 @import "footer";
 @import "syntax";
-
 @import "forms";
 
+/* Page structure */
 @import "page";
 @import "archive";
 @import "sidebar";
 
+/* Vendor styles */
 @import "vendor/font-awesome/fontawesome";
 @import "vendor/font-awesome/solid";
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
+
+/*
+ * Custom academic-site refinements.
+ * Keep this import after the theme styles so our rules can override
+ * the default AcademicPages / Minimal Mistakes appearance cleanly.
+ */
+@import "custom";
+
+/* Print rules stay last so print-specific behavior wins where needed. */
 @import "print";
