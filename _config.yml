@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Add the exact LinkedIn username/slug later
+  linkedin         : "haytham-ashraf-771a2b127"
   dblp             : # Username
   mastodon         : # URL
   medium           : # URL
@@ -146,6 +146,7 @@ social:
     - "https://orcid.org/0000-0002-7623-0887"
     - "https://www.researchgate.net/profile/Haytham-Ali-11"
     - "https://github.com/Haytham-ali"
+    - "https://www.linkedin.com/in/haytham-ashraf-771a2b127/"
 
 
 # Analytics
