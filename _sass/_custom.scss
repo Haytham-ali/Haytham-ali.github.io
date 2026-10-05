@@ -1005,3 +1005,48 @@ hr {
     animation-iteration-count: 1 !important;
   }
 }
+/* ============================================================
+   Compact masthead / remove excessive header whitespace
+   ============================================================ */
+
+.masthead {
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+  height: auto !important;
+}
+
+.masthead__inner-wrap {
+  margin: 0 auto !important;
+  padding: 0.55rem 1rem !important;
+  min-height: 0 !important;
+  height: auto !important;
+}
+
+.masthead__menu {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.greedy-nav {
+  margin: 0 !important;
+  padding: 0 !important;
+  min-height: 48px !important;
+  height: auto !important;
+  align-items: center;
+}
+
+.greedy-nav .visible-links {
+  margin: 0 !important;
+  padding: 0 !important;
+  align-items: center;
+}
+
+.masthead__menu-item {
+  margin: 0 !important;
+}
+
+.masthead__menu-item a {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
