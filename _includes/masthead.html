@@ -3,20 +3,46 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+
+        <button class="greedy-nav__toggle"
+                type="button"
+                aria-label="Toggle navigation menu"
+                aria-expanded="false">
+          <span class="navicon" aria-hidden="true"></span>
+        </button>
+
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg">
+            <a class="site-title" href="{{ '/' | relative_url }}">
+              {{ site.title }}
+            </a>
+          </li>
+
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-              {% else %}
-              {% assign domain = base_path %}
+              <li class="masthead__menu-item">
+                <a href="{{ link.url }}"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                  {{ link.title }}
+                </a>
+              </li>
+            {% else %}
+              {% assign item_url = link.url | relative_url %}
+              {% assign current_url = page.url | relative_url %}
+              <li class="masthead__menu-item">
+                <a href="{{ item_url }}"
+                   {% if current_url == item_url %}aria-current="page"{% endif %}>
+                  {{ link.title }}
+                </a>
+              </li>
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
+
         <ul class="hidden-links hidden"></ul>
+
       </nav>
     </div>
   </div>
