@@ -77,6 +77,14 @@ author_profile: true
     <span>Code and projects</span>
   </a>
 
+  <a class="profile-link"
+     href="https://www.linkedin.com/in/haytham-ashraf-771a2b127/"
+     target="_blank"
+     rel="noopener noreferrer">
+    <strong>LinkedIn</strong>
+    <span>Professional profile</span>
+  </a>
+
 </div>
 
 ---
