@@ -1,18 +1,21 @@
 main:
-  - title: "About"
-    url: /#about
+  - title: "Home"
+    url: /
 
   - title: "Research"
     url: /research/
 
   - title: "Publications"
     url: /publications/
-    
-  - title: "Grants and Awards"
-    url: /grants/
 
-  - title: "CV"
-    url: /cv/
+  - title: "Experience"
+    url: /experience/
+
+  - title: "Awards"
+    url: /grants/
 
   - title: "Contact"
     url: /contact/
+
+  - title: "CV"
+    url: /cv/
