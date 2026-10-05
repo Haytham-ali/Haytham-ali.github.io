@@ -18,7 +18,23 @@ My research focuses on reconstructing high-quality images from incomplete or lim
 [CV]({{ '/cv/' | relative_url }}){: .btn .btn--inverse }
 
 ## Recent Highlights
+## Recent Highlights
 
+- 🏆 **[Jul. 2026]** Received the **JAMIT Encouragement Award** at the 45th Annual Meeting of the Japanese Society of Medical Imaging Technology (JAMIT 2026), Nagoya, Japan.
+
+- 📰 **[Jul. 2026]** *PIDA-GAN: Physics-Informed Dual-Stage Attention GAN with Data Consistency for Sparse-View CT Reconstruction* was published in **Physics in Medicine & Biology**.
+
+- 🏆 **[Apr. 2026]** Received the **Best Poster Award — Runner Up** at **IEEE ISBI 2026**, London, for *Multi-Frequency and Locality-Guided Attention U-Net GAN for Limited-Angle CT Reconstruction*.
+
+- 🎤 **[Apr. 2026]** Gave an invited talk at **ICCCV 2026**, Tsukuba, Japan.
+
+- 📄 **[2026]** Presented *PCDS-GAN* as an **oral presentation** at IEEE ISBI 2026.
+
+- 📄 **[2026]** Presented *FLoAT-GAN* as a **long presentation** at the AAAI-26 W3PHIAI Workshop.
+
+- 🏆 **[2025]** Received the **Best Presentation Award** at ICCAE 2025, Perth, Australia.
+
+- 
 - **Jul. 2026 — Journal publication:** *PIDA-GAN: Physics-Informed Dual-Stage Attention GAN with Data Consistency for Sparse-View CT Reconstruction* was published in **Physics in Medicine & Biology**. [Read the paper](https://doi.org/10.1088/1361-6560/ae8c10).
 
 - **Apr. 2026 — Best Poster Award: Runner Up, IEEE ISBI 2026:** recognized for work on multi-frequency and locality-guided attention for limited-angle CT reconstruction.
